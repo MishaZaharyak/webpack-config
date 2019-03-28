@@ -1,0 +1,35 @@
+@import './utils/libs.scss';
+@import './utils/mixins.scss';
+@import './utils/vars.scss';
+
+
+html {
+    font-size: $main-font-size;
+
+    @media screen and (max-width: $desctopWidth) {
+        font-size: 16px;
+    }
+    @media screen and (max-width: $tabletWidth) {
+        font-size: 15px;
+    }
+    @media screen and (max-width: $smTabletWidth) {
+        font-size: 14px;
+    }
+}
+
+
+header {
+    background-image: url('../images/bg-musicInstrument.png');
+
+    h2 {
+        font-size: rem(20);
+    }
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
